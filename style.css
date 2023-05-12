@@ -1,0 +1,68 @@
+/* legger til en generell stil for body */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  /* legger til en stil for overskriften */
+  h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  /* legger til en stil for spillområdet */
+  #spillområde {
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #F5F5F5;
+  }
+  
+  /* legger til en stil for myntene */
+  .mynt {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  /* legger til en stil for poengtavlen */
+  #poengtavle {
+    margin: 20px auto;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 24px;
+    background-color: #F5F5F5;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  /* legger til en stil for knappene */
+  button {
+    font-size: 16px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* legger til en stil for en aktiv knapp */
+  button:active {
+    background-color: #005F6B;
+  }
